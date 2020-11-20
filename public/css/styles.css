@@ -1,0 +1,93 @@
+body {
+    background-color: #2a2a31;
+    color:gray;
+    font-family:sans-serif;
+}
+header, main, nav, footer {
+    text-align:center;
+}
+
+nav a { /* links within "nav container */
+    font-family: 'Turret Road', sans-serif;
+    padding:15px;
+    font-size: 1.8em;
+    text-decoration:none; /* removes underline */
+    color: white; /* by default, links are blue */
+    background-color: #8abac9;
+    border-radius:10px;
+    border:2px solid white;
+}
+
+nav a:hover{ /* pseudo class */
+    color: #2a2a31;
+    transition: .9s; /* transition effect */
+ }
+
+ main {
+     display:flex;
+     justify-content:center;
+ }
+
+ h1 {
+     font-family: 'Turret Road', sans-serif;
+     color:#ee5460;
+     font-size: 4em;
+     text-shadow: 5px 5px black;
+ }
+
+ h2 {
+     font-family:'Turret Road', sans-serif;
+     color:#ffd3aa;
+     font-size:2em;
+     margin:0px 0px 0.5em 0px;
+
+ }
+
+ #content {
+     background-color: #666699;
+     border-radius:25px;
+     padding:20px;
+     color:white;
+     text-align:left;
+     line-height:1.5em;
+     border:2px solid white;
+ }
+
+ blockquote {
+      border-left: 5px solid white;
+      padding-left: 5px;
+ }
+
+ #mainimg {
+     border-radius:25px;
+ }
+
+ figcaption, footer {
+     font-size:0.8em;
+     color:gray;
+ }
+
+ figcaption a {
+     text-decoration:none;
+     color:lightgray;
+ }
+
+ #citations {
+     font-size:0.8em;
+ }
+
+ #citations a {
+     color:lightgray;
+ }
+
+ hr {
+     margin: 20px 0px;
+ }
+
+ ul {
+     list-style-type:square;
+ }
+
+footer{
+    margin-top:10px;
+}
